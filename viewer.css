@@ -1,0 +1,66 @@
+body {
+  background: #42415f;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+#viewer {
+    max-width: fit-content;
+    margin: 50px auto;
+}
+
+.viewer-container {
+  background-color: #383750;
+  border-radius: 20px; 
+  padding: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto; 
+  max-width: 600px; 
+  height: auto; 
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.zoom-button-in {
+  padding: 10px 20px;
+  border: none; 
+  background-color: #3985d6; 
+  color: white; 
+  border-radius: 10px; 
+  cursor: zoom-in;
+}
+
+.zoom-button-out {
+  padding: 10px 20px;
+  border: none; 
+  background-color: #3985d6; 
+  color: white; 
+  border-radius: 10px; 
+  cursor: zoom-out;
+}
+
+
+
+.zoom-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+  
+  
